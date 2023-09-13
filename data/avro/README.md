@@ -41,3 +41,4 @@ Additional notes:
 | File  | Description   |
 |:--|:--|
 | alltypes_nulls_plain.avro   | Contains a single row with null values for each scalar data type, i.e, `{"string_col":null,"int_col":null,"bool_col":null,"bigint_col":null,"float_col":null,"double_col":null,"bytes_col":null}`. Generated from https://gist.github.com/nenorbot/5a92e24f8f3615488f75e2a18a105c76   |
+| nested_records.avro | Contains two rows of nested record types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/nested-records.rs |
