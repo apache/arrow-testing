@@ -38,9 +38,10 @@ for (fileStatus <- status) {
 
 Additional notes:
 
-| File  | Description   |
-|:--|:--|
-| alltypes_nulls_plain.avro   | Contains a single row with null values for each scalar data type, i.e, `{"string_col":null,"int_col":null,"bool_col":null,"bigint_col":null,"float_col":null,"double_col":null,"bytes_col":null}`. Generated from https://gist.github.com/nenorbot/5a92e24f8f3615488f75e2a18a105c76   |
-| nested_records.avro | Contains two rows of nested record types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/nested-records.rs |
-| simple_enum.avro | Contains four rows of enum types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/simple-enum.rs |
-| simple_fixed | Contains two rows of fixed types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/simple-fixed.rs |
+| File                      | Description                                                                                                                                                                                                                                                                         |
+|:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| alltypes_nulls_plain.avro | Contains a single row with null values for each scalar data type, i.e, `{"string_col":null,"int_col":null,"bool_col":null,"bigint_col":null,"float_col":null,"double_col":null,"bytes_col":null}`. Generated from https://gist.github.com/nenorbot/5a92e24f8f3615488f75e2a18a105c76 |
+| nested_records.avro       | Contains two rows of nested record types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/nested-records.rs                                                                                                                                       |
+| simple_enum.avro          | Contains four rows of enum types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/simple-enum.rs                                                                                                                                                  |
+| simple_fixed              | Contains two rows of fixed types. Generated from https://github.com/sarutak/avro-data-generator/blob/master/src/bin/simple-fixed.rs                                                                                                                                                 |
+| zero_byte.avro            | Contains two rows of zero bytes followed by a non-zero byte row. Generated from https://gist.github.com/jecsand838/e57647d0d12853f3cf07c350a6a40395                                                                                                                                 |
